@@ -1,5 +1,8 @@
 **App Overview:**
 
+**Description**: GymnFit is a Health and Fitness app that allows users to explore new workout routines depending on their fitness and body goals. The app is designed for anyone that works out regularly as well as for people that want to start exercising. 
+
+
 - Category: Health and Fitness. It tracks workout routines.
 - Mobile: Mobile app designed for IOS devices.
 - Story: There are not many fitness apps in the market, we want to provide a personal plan for each person depending on their goals. Gymnfit contains different levels of workout to cater for users with different abilities.
