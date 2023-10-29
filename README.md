@@ -1,23 +1,24 @@
 Product Spec Design - GymFit
 
-1. Required Features
+**1. Required Features**
+
 The following required functionality is completed:
 
-Users are able to select a workout plan that’s given by the application.
+[X] Users are able to select a workout plan that’s given by the application.
 
-Users able to see step by step procedures for all the different types of workouts/exercises.
+[X] Users able to see step by step procedures for all the different types of workouts/exercises.
 
-Users be able to pick the body parts they want to exercise and have the related exercises to that muscle group.
+[X] Users be able to pick the body parts they want to exercise and have the related exercises to that muscle group.
 
 The following optional features are implemented:
 
-Have a step by step gif of the exercise.
+[X] Have a step by step gif of the exercise.
 
-Able to build their own personal workout plan
+[X] Able to build their own personal workout plan
 
-Keep a streak whenever the users use the application.
+[X] Keep a streak whenever the users use the application.
 
-2. Screen Archetypes
+**2. Screen Archetypes**
 The following screens are required to implement the desired functionality.
 
 Workout Plan Selection Screen
@@ -39,7 +40,7 @@ User Profile Screen
 Users are able to build their own personal workout plan.
 User’s streak is tracked and displayed as they consistently use the app.
 
-3. Navigation
+**3. Navigation**
 Tab Navigation (Tab to Screen)
 Workout Plan Selection Screen
 All Workouts Screen
@@ -51,5 +52,5 @@ Exercise Details Screen => None
 All Workouts Screen => Exercise Details Screen
 (Optional) User Profile Screen => Exercise Details Screen
 
-4. Wireframes
+**4. Wireframes**
 Images
