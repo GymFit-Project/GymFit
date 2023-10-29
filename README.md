@@ -4,7 +4,7 @@ Product Spec Design - GymFit
 
 The following required functionality is completed:
 
-[X] Users are able to select a workout plan that’s given by the application.
+[x] Users are able to select a workout plan that’s given by the application.
 
 [X] Users able to see step by step procedures for all the different types of workouts/exercises.
 
