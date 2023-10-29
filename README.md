@@ -1,4 +1,14 @@
-Product Spec Design - GymFit
+**App Overview:**
+
+- Category: Health and Fitness. It tracks workout routines.
+- Mobile: Mobile app designed for IOS devices.
+- Story: There are not many fitness apps in the market, we want to provide a personal plan for each person depending on their goals. Gymnfit contains different levels of workout to cater for users with different abilities.
+- Market: People of any age that like to workout or would like to start exercising.
+- Habit: Encourages users to exercise regularly and maintain a workout routine. Users can discover new workout by using the app.
+- Scope: The app will be developed for IOS devices. Users are going to be able to explore different workouts.
+
+
+**Product Spec Design - GymFit**
 
 **1. Required Features**
 
