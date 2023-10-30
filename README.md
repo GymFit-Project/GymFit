@@ -1,4 +1,4 @@
-#GymFit
+# GymFit
 
 ## Table of Contents
 
