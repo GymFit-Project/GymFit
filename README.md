@@ -26,14 +26,14 @@ GymnFit is a Health and Fitness app that allows users to explore new workout rou
 
 The following **required** functionality is completed:
 
-[] Users are able to select a workout plan that’s given by the application.
-[] Users able to see step by step procedures for all the different types of workouts/exercises.
-[] Users be able to pick the body parts they want to exercise and have the related exercises to that muscle group.
+- [ ] Users are able to select a workout plan that’s given by the application.
+- [ ] Users able to see step by step procedures for all the different types of workouts/exercises.
+- [ ] Users be able to pick the body parts they want to exercise and have the related exercises to that muscle group.
 
 The following **optional** features are implemented:
-[] Have a step by step gif of the exercise.
-[] Able to build their own personal workout plan
-[] Keep a streak whenever the users use the application.
+- [ ] Have a step by step gif of the exercise.
+- [ ] Able to build their own personal workout plan
+- [ ] Keep a streak whenever the users use the application.
 
 ### 2. Screen Archetypes
 The following screens are **required** to implement the desired functionality.
