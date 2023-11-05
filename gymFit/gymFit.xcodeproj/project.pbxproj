@@ -11,6 +11,7 @@
 		E540A2E92AF7ECE100670D72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E540A2E82AF7ECE100670D72 /* ContentView.swift */; };
 		E540A2EB2AF7ECE200670D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E540A2EA2AF7ECE200670D72 /* Assets.xcassets */; };
 		E540A2EE2AF7ECE200670D72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E540A2ED2AF7ECE200670D72 /* Preview Assets.xcassets */; };
+		E540A2F72AF83EC800670D72 /* MuscleGroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E540A2F62AF83EC800670D72 /* MuscleGroupsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E540A2E82AF7ECE100670D72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E540A2EA2AF7ECE200670D72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E540A2ED2AF7ECE200670D72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E540A2F62AF83EC800670D72 /* MuscleGroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleGroupsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		E540A2E52AF7ECE100670D72 /* gymFit */ = {
 			isa = PBXGroup;
 			children = (
+				E540A2F62AF83EC800670D72 /* MuscleGroupsView.swift */,
 				E540A2E62AF7ECE100670D72 /* gymFitApp.swift */,
 				E540A2E82AF7ECE100670D72 /* ContentView.swift */,
 				E540A2EA2AF7ECE200670D72 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E540A2F72AF83EC800670D72 /* MuscleGroupsView.swift in Sources */,
 				E540A2E92AF7ECE100670D72 /* ContentView.swift in Sources */,
 				E540A2E72AF7ECE100670D72 /* gymFitApp.swift in Sources */,
 			);
