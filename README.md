@@ -77,3 +77,7 @@ Images
 ![](https://github.com/GymFit-Project/GymnFit/blob/main/Image1.png)
 
 ![](https://github.com/GymFit-Project/GymnFit/blob/main/Image2.png)
+
+## Progress GIFs
+
+![](https://github.com/GymFit-Project/GymnFit/blob/main/Unit8gif.gif)
