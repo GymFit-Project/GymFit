@@ -24,7 +24,7 @@ struct MuscleGroupsView: View {
                         
                         HStack{
                             Image(group.image).resizable().frame(width: 96,height: 96)
-                            /*@START_MENU_TOKEN@*/Text(group.name)/*@END_MENU_TOKEN@*/.font(.title)
+                            Text(group.name).font(.title)
                                 .padding(.leading)
                         }
                     }
