@@ -80,4 +80,4 @@ Images
 
 ## Progress GIFs
 
-![](https://github.com/GymFit-Project/GymnFit/blob/main/Unit8gif.gif)
+![](https://github.com/GymFit-Project/GymnFit/blob/main/Unit8Gif.gif)
