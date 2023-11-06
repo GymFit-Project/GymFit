@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		012335E62AF886B000701621 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012335E52AF886B000701621 /* Exercise.swift */; };
+		012335E82AF88AAF00701621 /* MuscleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012335E72AF88AAF00701621 /* MuscleGroup.swift */; };
+		012335EA2AF8989B00701621 /* WorkoutDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012335E92AF8989B00701621 /* WorkoutDetailsView.swift */; };
+		012335EC2AF8A5D700701621 /* AllExercisesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012335EB2AF8A5D700701621 /* AllExercisesView.swift */; };
 		E540A2E72AF7ECE100670D72 /* gymFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E540A2E62AF7ECE100670D72 /* gymFitApp.swift */; };
 		E540A2E92AF7ECE100670D72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E540A2E82AF7ECE100670D72 /* ContentView.swift */; };
 		E540A2EB2AF7ECE200670D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E540A2EA2AF7ECE200670D72 /* Assets.xcassets */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		012335E52AF886B000701621 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		012335E72AF88AAF00701621 /* MuscleGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleGroup.swift; sourceTree = "<group>"; };
+		012335E92AF8989B00701621 /* WorkoutDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailsView.swift; sourceTree = "<group>"; };
+		012335EB2AF8A5D700701621 /* AllExercisesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllExercisesView.swift; sourceTree = "<group>"; };
 		E540A2E32AF7ECE100670D72 /* gymFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gymFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E540A2E62AF7ECE100670D72 /* gymFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gymFitApp.swift; sourceTree = "<group>"; };
 		E540A2E82AF7ECE100670D72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +42,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		012335E32AF884B100701621 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E540A2E82AF7ECE100670D72 /* ContentView.swift */,
+				E540A2F62AF83EC800670D72 /* MuscleGroupsView.swift */,
+				012335E92AF8989B00701621 /* WorkoutDetailsView.swift */,
+				012335EB2AF8A5D700701621 /* AllExercisesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		012335E42AF884C500701621 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				012335E52AF886B000701621 /* Exercise.swift */,
+				012335E72AF88AAF00701621 /* MuscleGroup.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		E540A2DA2AF7ECE100670D72 = {
 			isa = PBXGroup;
 			children = (
@@ -53,9 +81,9 @@
 		E540A2E52AF7ECE100670D72 /* gymFit */ = {
 			isa = PBXGroup;
 			children = (
-				E540A2F62AF83EC800670D72 /* MuscleGroupsView.swift */,
+				012335E42AF884C500701621 /* Models */,
+				012335E32AF884B100701621 /* Views */,
 				E540A2E62AF7ECE100670D72 /* gymFitApp.swift */,
-				E540A2E82AF7ECE100670D72 /* ContentView.swift */,
 				E540A2EA2AF7ECE200670D72 /* Assets.xcassets */,
 				E540A2EC2AF7ECE200670D72 /* Preview Content */,
 			);
@@ -143,6 +171,10 @@
 				E540A2F72AF83EC800670D72 /* MuscleGroupsView.swift in Sources */,
 				E540A2E92AF7ECE100670D72 /* ContentView.swift in Sources */,
 				E540A2E72AF7ECE100670D72 /* gymFitApp.swift in Sources */,
+				012335EA2AF8989B00701621 /* WorkoutDetailsView.swift in Sources */,
+				012335E82AF88AAF00701621 /* MuscleGroup.swift in Sources */,
+				012335EC2AF8A5D700701621 /* AllExercisesView.swift in Sources */,
+				012335E62AF886B000701621 /* Exercise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

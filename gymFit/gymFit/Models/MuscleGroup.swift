@@ -7,19 +7,33 @@
 
 import Foundation
 
-struct MuscleGroup: Identifiable {
-    var id = UUID()
-    var name: String
-    var image: String
-}
-
-extension MuscleGroup {
-    static var muscleGroupData = [
-        MuscleGroup(name: "Chest", image: "MuscleGroupChest"),
-        MuscleGroup(name: "Legs", image: "MuscleGroupLegs"),
-        MuscleGroup(name: "Biceps", image: "MuscleGroupBiceps"),
-        MuscleGroup(name: "Abs", image: "MuscleGroupAbs"),
-        MuscleGroup(name: "Shoulders", image: "MuscleGroupShoulders"),
-        MuscleGroup(name: "Back", image: "MuscleGroupBack")
-    ]
+enum MuscleGroup: CaseIterable {
+    case chest
+    case legs
+    case biceps
+    case abs
+    case shoulders
+    case back
+    
+    var name: String {
+        switch self {
+        case .chest: return "Chest"
+        case .legs: return "Legs"
+        case .biceps: return "Biceps"
+        case .abs: return "Abs"
+        case .shoulders: return "Shoulders"
+        case .back: return "Back"
+        }
+    }
+    
+    var image: String {
+        switch self {
+        case .chest: return "MuscleGroupChest"
+        case .legs: return "MuscleGroupLegs"
+        case .biceps: return "MuscleGroupBiceps"
+        case .abs: return "MuscleGroupAbs"
+        case .shoulders: return "MuscleGroupShoulders"
+        case .back: return "MuscleGroupBack"
+        }
+    }
 }
