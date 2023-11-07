@@ -7,15 +7,8 @@
 
 import SwiftUI
 
-//move to a models folder later
-
-
-
 struct MuscleGroupsView: View {
     var muscleGroups = MuscleGroup.allCases
-    
-    
-    
     var body: some View {
         NavigationView{
             List{
@@ -37,8 +30,6 @@ struct MuscleGroupsView: View {
     }
 }
 
-struct MuscleGroupsView_Previews: PreviewProvider {
-    static var previews: some View {
-        MuscleGroupsView()
-    }
+#Preview {
+    MuscleGroupsView()
 }
