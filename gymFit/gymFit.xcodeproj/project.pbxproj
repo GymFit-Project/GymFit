@@ -11,6 +11,7 @@
 		012335E82AF88AAF00701621 /* MuscleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012335E72AF88AAF00701621 /* MuscleGroup.swift */; };
 		012335EA2AF8989B00701621 /* WorkoutDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012335E92AF8989B00701621 /* WorkoutDetailsView.swift */; };
 		012335EC2AF8A5D700701621 /* AllExercisesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012335EB2AF8A5D700701621 /* AllExercisesView.swift */; };
+		016E39AA2AFEA3600004DBBB /* ExerciseDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016E39A92AFEA3600004DBBB /* ExerciseDetailsView.swift */; };
 		E540A2E72AF7ECE100670D72 /* gymFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E540A2E62AF7ECE100670D72 /* gymFitApp.swift */; };
 		E540A2E92AF7ECE100670D72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E540A2E82AF7ECE100670D72 /* ContentView.swift */; };
 		E540A2EB2AF7ECE200670D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E540A2EA2AF7ECE200670D72 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		012335E72AF88AAF00701621 /* MuscleGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleGroup.swift; sourceTree = "<group>"; };
 		012335E92AF8989B00701621 /* WorkoutDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailsView.swift; sourceTree = "<group>"; };
 		012335EB2AF8A5D700701621 /* AllExercisesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllExercisesView.swift; sourceTree = "<group>"; };
+		016E39A92AFEA3600004DBBB /* ExerciseDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailsView.swift; sourceTree = "<group>"; };
 		E540A2E32AF7ECE100670D72 /* gymFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gymFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E540A2E62AF7ECE100670D72 /* gymFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gymFitApp.swift; sourceTree = "<group>"; };
 		E540A2E82AF7ECE100670D72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 				E540A2F62AF83EC800670D72 /* MuscleGroupsView.swift */,
 				012335E92AF8989B00701621 /* WorkoutDetailsView.swift */,
 				012335EB2AF8A5D700701621 /* AllExercisesView.swift */,
+				016E39A92AFEA3600004DBBB /* ExerciseDetailsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				E540A2E72AF7ECE100670D72 /* gymFitApp.swift in Sources */,
 				012335EA2AF8989B00701621 /* WorkoutDetailsView.swift in Sources */,
 				012335E82AF88AAF00701621 /* MuscleGroup.swift in Sources */,
+				016E39AA2AFEA3600004DBBB /* ExerciseDetailsView.swift in Sources */,
 				012335EC2AF8A5D700701621 /* AllExercisesView.swift in Sources */,
 				012335E62AF886B000701621 /* Exercise.swift in Sources */,
 			);
@@ -308,8 +312,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,8 +340,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -33,41 +33,60 @@ struct Exercise: Identifiable {
 
 extension Exercise {
     static var exerciseData = [
-        //Body Weight
-        Exercise(name: "Crunches", description: "Like sit ups but crunchy", image: "crunches", type: .reps(20), sets: 3, muscleGroup: .abs),
-        Exercise(name: "Push Ups", description: "You push yourself up.", image: "pushups", type: .reps(20), sets: 3, muscleGroup: .shoulders),
-        Exercise(name: "Pulls Ups", description: "You pull yourself up.", image: "pullups", type: .reps(20), sets: 3, muscleGroup: .biceps),
-        Exercise(name: "Planks", description: "Elevate your body in a planking position.", image: "planks", type: .duration(60), sets: 3, muscleGroup: .abs),
-
+        
+        // Body Weight
+        Exercise(name: "Crunches", description: "Perform crunches by lying on your back, bending your knees, and lifting your upper body toward your knees. This exercise targets the abdominal muscles, helping to strengthen and tone your core.", image: "crunches", type: .reps(20), sets: 3, muscleGroup: .abs),
+        
+        Exercise(name: "Push Ups", description: "Engage in push-ups by starting in a plank position, lowering your body toward the ground, and pushing back up. This classic exercise enhances upper body strength, working the chest, shoulders, and triceps.", image: "pushups", type: .reps(20), sets: 3, muscleGroup: .shoulders),
+        
+        Exercise(name: "Pulls Ups", description: "Execute pull-ups by gripping a horizontal bar with palms facing away, pulling your body upward. This exercise is excellent for developing upper body strength, focusing on the back and biceps.", image: "pullups", type: .reps(20), sets: 3, muscleGroup: .biceps),
+        
+        Exercise(name: "Planks", description: "Perform planks by holding a push-up position with arms straight. This static exercise targets the entire core, promoting stability and strength. It also engages the shoulders, back, and legs.", image: "planks", type: .duration(60), sets: 3, muscleGroup: .abs),
+        
         // Chest
-        Exercise(name: "Bench Press", description: "Lift weights lying on a bench.", image: "benchpress", type: .reps(15), sets: 4, muscleGroup: .chest),
-        Exercise(name: "Flyes", description: "Isolate chest muscles with flye movements.", image: "flyes", type: .reps(12), sets: 3, muscleGroup: .chest),
-        Exercise(name: "Dumbbell Pullover", description: "Work on chest and back muscles.", image: "pullover", type: .reps(12), sets: 3, muscleGroup: .chest),
-        Exercise(name: "Chest Dips", description: "Use parallel bars to target chest.", image: "chestdips", type: .reps(15), sets: 3, muscleGroup: .chest),
+        Exercise(name: "Bench Press", description: "Conduct bench presses by lying on a bench and lifting weights upward. This exercise is a cornerstone for building chest strength and muscle mass.", image: "benchpress", type: .reps(15), sets: 4, muscleGroup: .chest),
+        
+        Exercise(name: "Flyes", description: "Complete flyes by extending your arms outward while holding weights. This isolation exercise effectively targets the chest muscles, enhancing definition and shape.", image: "flyes", type: .reps(12), sets: 3, muscleGroup: .chest),
+        
+        Exercise(name: "Dumbbell Pullover", description: "Execute dumbbell pullovers by lying on your back, holding a weight overhead, and lowering it behind your head. This exercise engages both the chest and back muscles.", image: "pullover", type: .reps(12), sets: 3, muscleGroup: .chest),
+        
+        Exercise(name: "Chest Dips", description: "Perform chest dips using parallel bars, lowering and raising your body. This bodyweight exercise is excellent for building chest and triceps strength.", image: "chestdips", type: .reps(15), sets: 3, muscleGroup: .chest),
         
         // Legs
-        Exercise(name: "Squats", description: "Classic leg exercise.", image: "squats", type: .reps(12), sets: 4, muscleGroup: .legs),
-        Exercise(name: "Lunges", description: "Forward or reverse lunges for leg strength.", image: "lunges", type: .reps(16), sets: 3, muscleGroup: .legs),
-        Exercise(name: "Leg Press", description: "Machine-based leg press.", image: "legpress", type: .reps(15), sets: 3, muscleGroup: .legs),
-        Exercise(name: "Calf Raises", description: "Strengthen your calf muscles.", image: "calfraises", type: .reps(20), sets: 3, muscleGroup: .legs),
+        Exercise(name: "Squats", description: "Engage in squats by lowering your body into a seated position and standing back up. This fundamental leg exercise targets the quadriceps, hamstrings, and glutes, promoting lower body strength.", image: "squats", type: .reps(12), sets: 4, muscleGroup: .legs),
+        
+        Exercise(name: "Lunges", description: "Complete lunges by taking a step forward and lowering your body. This exercise targets the quadriceps, hamstrings, and glutes, enhancing leg strength and stability.", image: "lunges", type: .reps(16), sets: 3, muscleGroup: .legs),
+        
+        Exercise(name: "Leg Press", description: "Conduct leg presses using a machine, pushing weights away from your body. This exercise targets the entire leg, emphasizing quadriceps, hamstrings, and glutes.", image: "legpress", type: .reps(15), sets: 3, muscleGroup: .legs),
+        
+        Exercise(name: "Calf Raises", description: "Perform calf raises by lifting your heels off the ground. This exercise strengthens the calf muscles, improving lower leg stability and definition.", image: "calfraises", type: .reps(20), sets: 3, muscleGroup: .legs),
         
         // Biceps
-        Exercise(name: "Barbell Curls", description: "Classic bicep exercise with a barbell.", image: "barbellcurls", type: .reps(12), sets: 4, muscleGroup: .biceps),
-        Exercise(name: "Hammer Curls", description: "Alternate dumbbell curls for bicep and forearm development.", image: "hammercurls", type: .reps(15), sets: 3, muscleGroup: .biceps),
-        Exercise(name: "Preacher Curls", description: "Use a preacher bench for focused bicep work.", image: "preachercurls", type: .reps(12), sets: 3, muscleGroup: .biceps),
-        Exercise(name: "Concentration Curls", description: "Isolate biceps with concentration curls.", image: "concentrationcurls", type: .reps(10), sets: 3, muscleGroup: .biceps),
+        Exercise(name: "Barbell Curls", description: "Execute barbell curls by lifting a barbell with palms facing up. This classic bicep exercise promotes overall arm strength and muscle development.", image: "barbellcurls", type: .reps(12), sets: 4, muscleGroup: .biceps),
+        
+        Exercise(name: "Hammer Curls", description: "Complete hammer curls by lifting dumbbells with palms facing in. This variation targets the biceps and forearms, contributing to well-rounded arm strength.", image: "hammercurls", type: .reps(15), sets: 3, muscleGroup: .biceps),
+        
+        Exercise(name: "Preacher Curls", description: "Conduct preacher curls using a specialized bench, isolating the biceps. This exercise helps build peak bicep muscle.", image: "preachercurls", type: .reps(12), sets: 3, muscleGroup: .biceps),
+        
+        Exercise(name: "Concentration Curls", description: "Perform concentration curls by sitting and curling a dumbbell. This isolation exercise targets the biceps, enhancing muscle definition.", image: "concentrationcurls", type: .reps(10), sets: 3, muscleGroup: .biceps),
         
         // Shoulders
-        Exercise(name: "Overhead Press", description: "Lift weights overhead for shoulder strength.", image: "overheadpress", type: .reps(12), sets: 4, muscleGroup: .shoulders),
-        Exercise(name: "Lateral Raises", description: "Work on lateral deltoids with raises.", image: "lateralraises", type: .reps(15), sets: 3, muscleGroup: .shoulders),
-        Exercise(name: "Front Raises", description: "Target front deltoids with front raises.", image: "frontraises", type: .reps(12), sets: 3, muscleGroup: .shoulders),
-        Exercise(name: "Shrugs", description: "Lift shoulders up and down for trap development.", image: "shrugs", type: .reps(15), sets: 3, muscleGroup: .shoulders),
+        Exercise(name: "Overhead Press", description: "Engage in overhead presses by lifting weights overhead. This exercise targets the deltoids, contributing to shoulder strength and stability.", image: "overheadpress", type: .reps(12), sets: 4, muscleGroup: .shoulders),
+        
+        Exercise(name: "Lateral Raises", description: "Complete lateral raises by lifting weights to the sides. This exercise isolates the lateral deltoids, enhancing shoulder width and definition.", image: "lateralraises", type: .reps(15), sets: 3, muscleGroup: .shoulders),
+        
+        Exercise(name: "Front Raises", description: "Conduct front raises by lifting weights to the front. This exercise targets the front deltoids, contributing to overall shoulder development.", image: "frontraises", type: .reps(12), sets: 3, muscleGroup: .shoulders),
+        
+        Exercise(name: "Shrugs", description: "Perform shrugs by lifting the shoulders toward the ears. This exercise targets the trapezius muscles, contributing to upper back and neck strength.", image: "shrugs", type: .reps(15), sets: 3, muscleGroup: .shoulders),
         
         // Back
-        Exercise(name: "Deadlifts", description: "Lift heavy weights from the ground for full-body engagement.", image: "deadlifts", type: .reps(8), sets: 4, muscleGroup: .back),
-        Exercise(name: "Lat Pulldowns", description: "Use a cable machine for lat development.", image: "latpulldowns", type: .reps(12), sets: 3, muscleGroup: .back),
-        Exercise(name: "Rowing", description: "Machine or barbell rows for back strength.", image: "rowing", type: .reps(12), sets: 3, muscleGroup: .back),
-        Exercise(name: "Hyperextensions", description: "Strengthen lower back with hyperextension exercises.", image: "hyperextensions", type: .reps(15), sets: 3, muscleGroup: .back),
+        Exercise(name: "Deadlifts", description: "Execute deadlifts by lifting heavy weights from the ground. This compound exercise engages multiple muscle groups, including the lower back, hamstrings, and glutes.", image: "deadlifts", type: .reps(8), sets: 4, muscleGroup: .back),
+        
+        Exercise(name: "Lat Pulldowns", description: "Complete lat pulldowns using a cable machine. This exercise targets the latissimus dorsi, contributing to upper back and shoulder development.", image: "latpulldowns", type: .reps(12), sets: 3, muscleGroup: .back),
+        
+        Exercise(name: "Rowing", description: "Conduct rowing exercises using a machine or barbell. This exercise targets the back muscles, promoting strength and definition.", image: "rowing", type: .reps(12), sets: 3, muscleGroup: .back),
+        
+        Exercise(name: "Hyperextensions", description: "Perform hyperextensions to strengthen the lower back. Lie face down and lift your upper body, engaging the lower back muscles.", image: "hyperextensions", type: .reps(15), sets: 3, muscleGroup: .back),
     ]
 }
 

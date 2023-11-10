@@ -17,8 +17,11 @@ struct MuscleGroupsView: View {
                         
                         HStack{
                             Image(group.image).resizable().frame(width: 96,height: 96)
-                            Text(group.name).font(.title)
+                            Text(group.name)
+                                .font(.title)
                                 .padding(.leading)
+                                .foregroundColor(.yellow)
+                            
                         }
                     }
                 }

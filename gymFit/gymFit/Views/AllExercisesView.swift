@@ -7,37 +7,42 @@
 
 import SwiftUI
 
+
 struct AllExercisesView: View {
     var body: some View {
-        var exercises: [Exercise] = Exercise.exerciseData
-        List {
-            ForEach(exercises) { exercise in
-                
-                HStack{
-                    Image(exercise.image)
-                        .resizable()
-                        .frame(width: 96, height: 96)
-                        .scaledToFit()
-                    VStack(alignment: .leading){
-                        Text(exercise.name)
-                            .font(.title)
-                        HStack{
-                            if case .reps(let numReps) = exercise.type {
-                                Text("Reps: \(numReps)")
-                            } else if case .duration(let numDuration) = exercise.type {
-                                Text("Duration: \(formatTimeInterval(numDuration))")
+        NavigationView {
+            List {
+                ForEach(Exercise.exerciseData) { exercise in
+                    NavigationLink(destination: ExerciseDetailsView(exercise: exercise)) {
+                        HStack {
+                            Image(exercise.image)
+                                .resizable()
+                                .frame(width: 96, height: 96)
+                                .scaledToFit()
+                            VStack(alignment: .leading) {
+                                Text(exercise.name)
+                                    .foregroundStyle(.yellow)
+                                    .font(.title)
+                                    .bold()
+                                HStack {
+                                    if case .reps(let numReps) = exercise.type {
+                                        Text("Reps: \(numReps)")
+                                    } else if case .duration(let numDuration) = exercise.type {
+                                        Text("Duration: \(formatTimeInterval(numDuration))")
+                                    }
+                                    Text("|")
+                                    Text("Sets: \(exercise.sets)")
+                                }
                             }
-                            Text("|")
-                            Text("Sets: \(exercise.sets)")
+                            .padding(.leading)
                         }
                     }
-                    .padding(.leading)
                 }
             }
+            .listStyle(.inset)
+            .navigationTitle("All Exercises")
         }
-        .listStyle(.inset)
     }
-
 }
 
 #Preview {

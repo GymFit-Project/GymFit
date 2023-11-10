@@ -16,25 +16,29 @@ struct WorkoutDetailsView: View {
             List {
                 ForEach(exercises.filter { $0.muscleGroup == muscleGroup }) { exercise in
                     
-                    HStack{
-                        Image(exercise.image)
-                            .resizable()
-                            .frame(width: 96, height: 96)
-                            .scaledToFit()
-                        VStack(alignment: .leading){
-                            Text(exercise.name)
-                                .font(.title)
-                            HStack{
-                                if case .reps(let numReps) = exercise.type {
-                                    Text("Reps: \(numReps)")
-                                } else if case .duration(let numDuration) = exercise.type {
-                                    Text("Duration: \(formatTimeInterval(numDuration))")
+                    NavigationLink(destination: ExerciseDetailsView(exercise: exercise)) {
+                        HStack{
+                            Image(exercise.image)
+                                .resizable()
+                                .frame(width: 96, height: 96)
+                                .scaledToFit()
+                            VStack(alignment: .leading){
+                                Text(exercise.name)
+                                    .foregroundStyle(.yellow)
+                                    .font(.title)
+                                    .bold()
+                                HStack{
+                                    if case .reps(let numReps) = exercise.type {
+                                        Text("Reps: \(numReps)")
+                                    } else if case .duration(let numDuration) = exercise.type {
+                                        Text("Duration: \(formatTimeInterval(numDuration))")
+                                    }
+                                    Text("|")
+                                    Text("Sets: \(exercise.sets)")
                                 }
-                                Text("|")
-                                Text("Sets: \(exercise.sets)")
                             }
+                            .padding(.leading)
                         }
-                        .padding(.leading)
                     }
                 }
             }
