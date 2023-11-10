@@ -52,6 +52,14 @@ extension Exercise {
         
         Exercise(name: "Chest Dips", description: "Perform chest dips using parallel bars, lowering and raising your body. This bodyweight exercise is excellent for building chest and triceps strength.", image: "chestdips", type: .reps(15), sets: 3, muscleGroup: .chest),
         
+        Exercise(name: "Machine Fly", description: "Perform machine flies by grabbing the handles and pushing them in front of you.Focus on contracting your muscles throughout the exercise.", image: "machine_fly", type: .reps(10), sets: 4, muscleGroup: .chest),
+        
+        Exercise(name: "Cable Crossover", description: "Grasp a handle in each hand and then bring them together in front of you, crossing them over at the height of your chest.", image: "cable_crossover", type: .reps(10), sets: 4, muscleGroup: .chest),
+        
+        Exercise(name: "Incline Dumbell Press", description: "Grasp a dumbell in each hand. Exhale as you push the dumbbells upward, extending your arms fully. Inhale as you lower the dumbbells in a controlled manner", image: "incline_dumbell_press", type: .reps(10), sets: 4, muscleGroup: .chest),
+        
+        Exercise(name: "Decline Dumbell Bench Press", description: "Grasp a dumbell in each hand and exhale as you push the dumbells upward. Extend arms fully.", image: "decline_dumbell_bench_p", type: .reps(12), sets: 3, muscleGroup: .chest),
+        
         // Legs
         Exercise(name: "Squats", description: "Engage in squats by lowering your body into a seated position and standing back up. This fundamental leg exercise targets the quadriceps, hamstrings, and glutes, promoting lower body strength.", image: "squats", type: .reps(12), sets: 4, muscleGroup: .legs),
         
