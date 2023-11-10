@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "inclined-leg-press-3d-illustration-260nw-434632384.jpg.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

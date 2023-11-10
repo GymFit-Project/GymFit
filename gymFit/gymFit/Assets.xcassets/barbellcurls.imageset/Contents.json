@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "753-7538793_standing-dumbbell-curl-dumbell-curl-hd-png-download.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
