@@ -11,7 +11,6 @@ struct ExerciseDetailsView: View {
     var exercise: Exercise
     
     var body: some View {
-        NavigationView{
             VStack(spacing: 20){
                 Image(exercise.image)
                     .resizable()
@@ -42,7 +41,7 @@ struct ExerciseDetailsView: View {
                 Spacer()
             }
             .multilineTextAlignment(.center)
-        }
+            .navigationTitle("\(exercise.muscleGroup.name) Exercises")
     }
 }
 

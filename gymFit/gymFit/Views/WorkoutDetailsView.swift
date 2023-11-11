@@ -12,10 +12,8 @@ struct WorkoutDetailsView: View {
     var exercises: [Exercise] = Exercise.exerciseData
     
     var body: some View {
-        NavigationView {
             List {
                 ForEach(exercises.filter { $0.muscleGroup == muscleGroup }) { exercise in
-                    
                     NavigationLink(destination: ExerciseDetailsView(exercise: exercise)) {
                         HStack{
                             Image(exercise.image)
@@ -43,8 +41,7 @@ struct WorkoutDetailsView: View {
                 }
             }
             .listStyle(.inset)
-        }
-        .navigationTitle("\(muscleGroup.name) Exercises")
+            .navigationTitle("\(muscleGroup.name) Exercises")
     }
 }
 
