@@ -128,6 +128,16 @@ extension Exercise {
         Exercise(name: "Rowing", description: "Conduct rowing exercises using a machine or barbell. This exercise targets the back muscles, promoting strength and definition.", image: "rowing", type: .reps(12), sets: 3, muscleGroup: .back),
         
         Exercise(name: "Hyperextensions", description: "Perform hyperextensions to strengthen the lower back. Lie face down and lift your upper body, engaging the lower back muscles.", image: "hyperextensions", type: .reps(15), sets: 3, muscleGroup: .back),
+        
+        Exercise(name: "Seated Cable Row", description: "Sit on the seat of the cable row machine, facing the cable stack. Inhale as you retract your shoulder blades, pulling the handle toward your lower chest. Exhale as you extend your arms back to the original position.", image: "seated_cable_rows", type: .reps(8), sets: 4, muscleGroup: .back),
+        
+        Exercise(name: "T Bar Row", description: "Bend at the hips and knees to grasp the barble with both hands using an overhand grip. Inhale as you pull the barbell toward your chest by retracting your shoulder blades. Exhale as you lower the barbell back down to the first initial position.", image: "t_bar_row", type: .reps(10), sets: 3, muscleGroup: .back),
+        
+        Exercise(name: "Face Pull", description: "Grab the handles with an overhand grip, palms facing each other. Hold the handles at chest height with your arms fully extended. Carefully pull the handles towards your face. Then return to the initial position.", image: "face_pull", type: .reps(10), sets: 3, muscleGroup: .back),
+        
+        Exercise(name: "Y Raise", description: "Start by holding a dumbell in each hand and seating in a bench facing the ground. Lift both arms straight out in front of you and slightly upward to form a 'y' shape with your body. Carefully lower the dumbbells back to the first position.", image: "y__raise", type: .reps(12), sets: 3, muscleGroup: .back)
+        
+        
     ]
 }
 
