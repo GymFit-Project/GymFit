@@ -69,6 +69,14 @@ extension Exercise {
         
         Exercise(name: "Calf Raises", description: "Perform calf raises by lifting your heels off the ground. This exercise strengthens the calf muscles, improving lower leg stability and definition.", image: "calfraises", type: .reps(20), sets: 3, muscleGroup: .legs),
         
+        Exercise(name: "Leg Extension", description: "Sit on the machine with your back pressed against the backrest. Exhale as you fully extend your legs, and inhale as you slowly lower your legs.", image: "leg_extension", type: .reps(10), sets: 4, muscleGroup: .legs),
+        
+        Exercise(name: "Barbell Reverse Lunge", description: "Position the barbell across your shoulders and upper back. Lower your body by bending both knees until your back knee is just above the ground. Repeat the movement on the same leg for the desired number of repetitions", image: "barbell_reverse_lunge", type: .reps(10), sets: 4, muscleGroup: .legs),
+        
+        Exercise(name: "Goblet Squat", description: "Hold a dumbbell or kettlebell vertically with both hands at chest level. Lower your body down, keeping your chest up and maintaining a straight chest position. Exhale as you push through your heels to return to the initial position.", image: "goblet_squat", type: .reps(12), sets: 4, muscleGroup: .legs),
+        
+        Exercise(name: "Step Up", description: "Place one foot entirely on the bench or step. Lift your body up onto the platform. Exhale as you carefully lower your back down to the starting position.", image: "step_up", type: .reps(16), sets: 4, muscleGroup: .legs),
+        
         // Biceps
         Exercise(name: "Barbell Curls", description: "Execute barbell curls by lifting a barbell with palms facing up. This classic bicep exercise promotes overall arm strength and muscle development.", image: "barbellcurls", type: .reps(12), sets: 4, muscleGroup: .biceps),
         
@@ -77,6 +85,14 @@ extension Exercise {
         Exercise(name: "Preacher Curls", description: "Conduct preacher curls using a specialized bench, isolating the biceps. This exercise helps build peak bicep muscle.", image: "preachercurls", type: .reps(12), sets: 3, muscleGroup: .biceps),
         
         Exercise(name: "Concentration Curls", description: "Perform concentration curls by sitting and curling a dumbbell. This isolation exercise targets the biceps, enhancing muscle definition.", image: "concentrationcurls", type: .reps(10), sets: 3, muscleGroup: .biceps),
+        
+        Exercise(name: "Barbell Curl", description: "Hold the barbell with an underhand grip. Inhale as you curl the barbell toward your chest, bending your elbows. Exhale as you lower the barbell back to the starting position.", image: "barbell_curl", type: .reps(10), sets: 4, muscleGroup: .biceps),
+        
+        Exercise(name: "Incline Dumbell Curl", description: "Sit on the incline bench with a dumbbell in each hand. Inhale as you simultaneously curl both dumbbells toward your shoulders. Exhale as you lower the dumbbells back to the initial position.", image: "incline_dumbell", type: .reps(12), sets: 4, muscleGroup: .biceps),
+
+        Exercise(name: "Drag Curl", description: "Hold two dumbells or a barbell with an underhand grip. Pull your elbows straight back and keeping them close to your body. Lower the barbell back down slowly.", image: "drag_curl", type: .reps(12), sets: 4, muscleGroup: .biceps),
+        
+        Exercise(name: "Waiter curl", description: "Hold a dumbell by one of its sides with both hands open. Inhale as you curl toward your chest. Exhale as you lower the dumbells back to the initial position.", image: "waiter_curl", type: .reps(10), sets: 3, muscleGroup: .biceps),
         
         // Shoulders
         Exercise(name: "Overhead Press", description: "Engage in overhead presses by lifting weights overhead. This exercise targets the deltoids, contributing to shoulder strength and stability.", image: "overheadpress", type: .reps(12), sets: 4, muscleGroup: .shoulders),
