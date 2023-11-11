@@ -43,6 +43,14 @@ extension Exercise {
         
         Exercise(name: "Planks", description: "Perform planks by holding a push-up position with arms straight. This static exercise targets the entire core, promoting stability and strength. It also engages the shoulders, back, and legs.", image: "planks", type: .duration(60), sets: 3, muscleGroup: .abs),
         
+        Exercise(name: "Leg Raise", description: "Perform leg raise in the parallel bars by rasing your legs and lowering them slowly.", image: "leg_raise", type: .reps(10), sets: 4, muscleGroup: .abs),
+        
+        Exercise(name: "Reverse Crunch", description: "Lie down on your back with your arms extended along your sides (palms facing down). Raise your legs bending your knees at a ninety degree angle.", image: "reverse_crunch", type: .reps(10), sets: 4, muscleGroup: .abs),
+        
+        Exercise(name: "Seated Scissor Kicks", description: "Sit on the floor with your legs extended straight in front of you. Lift your legs off the ground a few inches. Do the scissor kicks by crossing your right leg over your left and then switch, your left leg over your right.", image: "seated_scissor_kicks", type: .duration(60), sets: 3, muscleGroup: .abs),
+        
+        Exercise(name: "Dead Bug", description: "Lie on your back with your legs lifted off the ground, knees at a ninety degree angle and arms extended toward the ceiling. Lower your right arm and left leg toward the floor without letting them touch the ground. Return to the initial position and repeat the exercise with the other side.", image: "dead_bug", type: .reps(8), sets: 4, muscleGroup: .abs),
+        
         // Chest
         Exercise(name: "Bench Press", description: "Conduct bench presses by lying on a bench and lifting weights upward. This exercise is a cornerstone for building chest strength and muscle mass.", image: "benchpress", type: .reps(15), sets: 4, muscleGroup: .chest),
         
