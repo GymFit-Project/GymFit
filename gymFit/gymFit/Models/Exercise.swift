@@ -111,6 +111,15 @@ extension Exercise {
         
         Exercise(name: "Shrugs", description: "Perform shrugs by lifting the shoulders toward the ears. This exercise targets the trapezius muscles, contributing to upper back and neck strength.", image: "shrugs", type: .reps(15), sets: 3, muscleGroup: .shoulders),
         
+        Exercise(name: "Reverse Flye", description: "Hold a dumbbell in each hand, palms facing each other. Exhale as you lift both dumbbells out to the sides, keeping a slight bend in your elbows. Inhale as you lower the dumbbells back to the first position.", image: "reverse_flye", type: .reps(12), sets: 3, muscleGroup: .shoulders),
+        
+        Exercise(name: "External Rotation", description: "Set the handle of the cable machine to the height of your chest. Exhale as you externally rotate your shoulder by pulling the resistance band or cable handle away from the center of your body. Inhale as you slowly return to the first position.", image: "external_rotation", type: .reps(6), sets: 4, muscleGroup: .shoulders),
+        
+        Exercise(name: "Cable Lateral Raise", description: "Stand next to a cable machine with your feet shoulder-width apart and grasp the handle with your hand that is farther from the machine. Exhale as you lift the cable handle directly to the side. Inhale as you lower the cable handle back to the first position .", image: "cable_lateral_raise", type: .reps(16), sets: 3, muscleGroup: .shoulders),
+        
+        Exercise(name: "Upright Row", description: "Grasp the cable machine handler or a barbell. Exhale as you lift the weight straight upward toward the upper chest. Inhale as you lower the weight back down to the original position.", image: "upright_row", type: .reps(12), sets: 3, muscleGroup: .shoulders),
+        
+        
         // Back
         Exercise(name: "Deadlifts", description: "Execute deadlifts by lifting heavy weights from the ground. This compound exercise engages multiple muscle groups, including the lower back, hamstrings, and glutes.", image: "deadlifts", type: .reps(8), sets: 4, muscleGroup: .back),
         
