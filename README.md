@@ -82,7 +82,8 @@ Images
 ![](https://youtu.be/vjtknNdZBd8)
 
 ## Progress GIFs
-
+### Unit 8:
 ![](https://github.com/GymFit-Project/GymnFit/blob/main/Unit8Gif.gif)
+### Unit 9:
 ![](https://github.com/GymFit-Project/GymnFit/blob/main/Unit9Gif.gif)
 
