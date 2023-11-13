@@ -79,9 +79,10 @@ Images
 ![](https://github.com/GymFit-Project/GymnFit/blob/main/Image2.png)
 
 ## Demo
-(https://youtu.be/vjtknNdZBd8)
+![](https://youtu.be/vjtknNdZBd8)
 
 ## Progress GIFs
 
 ![](https://github.com/GymFit-Project/GymnFit/blob/main/Unit8Gif.gif)
+![](https://github.com/GymFit-Project/GymnFit/blob/main/Unit9Gif.gif)
 
