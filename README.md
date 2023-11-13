@@ -5,6 +5,8 @@
 1. [Overview](#Overview)
 2. [Product Spec](#Product-Spec)
 3. [Wireframes](#Wireframes)
+4. [Demo](#Demo)
+5. [Progress GIFs](#Progress-GIFs)
 
 ## Overview
 
@@ -79,7 +81,7 @@ Images
 ![](https://github.com/GymFit-Project/GymnFit/blob/main/Image2.png)
 
 ## Demo
-![](https://youtu.be/vjtknNdZBd8)
+[Demo on youtube](https://youtu.be/vjtknNdZBd8)
 
 ## Progress GIFs
 ### Unit 8:
