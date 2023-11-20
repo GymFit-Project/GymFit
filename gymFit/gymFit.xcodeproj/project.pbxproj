@@ -17,6 +17,7 @@
 		E540A2EB2AF7ECE200670D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E540A2EA2AF7ECE200670D72 /* Assets.xcassets */; };
 		E540A2EE2AF7ECE200670D72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E540A2ED2AF7ECE200670D72 /* Preview Assets.xcassets */; };
 		E540A2F72AF83EC800670D72 /* MuscleGroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E540A2F62AF83EC800670D72 /* MuscleGroupsView.swift */; };
+		E5E510A92B0BFE8200DDB9C7 /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E5E510A82B0BFE8200DDB9C7 /* ParseSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5E510A92B0BFE8200DDB9C7 /* ParseSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +119,9 @@
 			dependencies = (
 			);
 			name = gymFit;
+			packageProductDependencies = (
+				E5E510A82B0BFE8200DDB9C7 /* ParseSwift */,
+			);
 			productName = gymFit;
 			productReference = E540A2E32AF7ECE100670D72 /* gymFit.app */;
 			productType = "com.apple.product-type.application";
@@ -145,6 +150,9 @@
 				Base,
 			);
 			mainGroup = E540A2DA2AF7ECE100670D72;
+			packageReferences = (
+				E5E510A72B0BFE8200DDB9C7 /* XCRemoteSwiftPackageReference "Parse-Swift" */,
+			);
 			productRefGroup = E540A2E42AF7ECE100670D72 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -377,6 +385,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E5E510A72B0BFE8200DDB9C7 /* XCRemoteSwiftPackageReference "Parse-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/parse-community/Parse-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.14.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E5E510A82B0BFE8200DDB9C7 /* ParseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5E510A72B0BFE8200DDB9C7 /* XCRemoteSwiftPackageReference "Parse-Swift" */;
+			productName = ParseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E540A2DB2AF7ECE100670D72 /* Project object */;
 }
