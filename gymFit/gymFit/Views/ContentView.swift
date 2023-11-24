@@ -10,17 +10,17 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            MuscleGroupsView()
-                .tabItem {
-                    Image(systemName: "figure.mixed.cardio")
-                    Text("Muscle Groups")
-                }
+//            MuscleGroupsView()
+//                .tabItem {
+//                    Image(systemName: "figure.mixed.cardio")
+//                    Text("Muscle Groups")
+//                }
 
-            AllExercisesView()
-                .tabItem {
-                    Image(systemName: "figure.run.square.stack")
-                    Text("All Exercises")
-                }
+//            AllExercisesView()
+//                .tabItem {
+//                    Image(systemName: "figure.run.square.stack")
+//                    Text("All Exercises")
+//                }
         }
     }
 }

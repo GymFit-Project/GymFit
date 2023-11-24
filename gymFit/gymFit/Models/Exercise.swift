@@ -25,6 +25,9 @@ struct Exercise: ParseObject {
     var duration: Int?
     
 }
+extension Exercise{
+    static var exerciseData: [Exercise] = []
+}
 
 //extension Exercise {
 //    static var exerciseData = [
