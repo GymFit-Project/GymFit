@@ -20,3 +20,7 @@ struct MuscleGroup: ParseObject {
     var image:ParseFile?
 }
 
+extension MuscleGroup{
+    static var muscleGroupData: [MuscleGroup] = []
+}
+

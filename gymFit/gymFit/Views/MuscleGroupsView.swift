@@ -36,3 +36,43 @@
 //#Preview {
 //    MuscleGroupsView()
 //}
+
+//
+//  MuscleGroupsView.swift
+//  gymFit
+//
+//  Created by Fabio on 11/5/23.
+//
+
+import SwiftUI
+
+struct MuscleGroupsView: View {
+    
+    var body: some View {
+        NavigationView{
+            List{
+                ForEach(MuscleGroup.muscleGroupData) { muscleGroup in
+//                    NavigationLink(destination: WorkoutDetailsView(muscleGroup: group)) {
+
+                        HStack{
+                            ImageView(url:
+                                        (muscleGroup.image?.url)!).frame(width: 100, height: 100)
+                            Text(muscleGroup.name ?? "None")
+                                .font(.title)
+                                .padding(.leading)
+                                .foregroundColor(.yellow)
+
+                        }
+//                    }
+                }
+            }
+            .listStyle(.inset)
+            .navigationTitle("Muscle Groups")
+        }
+
+    }
+}
+
+#Preview {
+    MuscleGroupsView()
+}

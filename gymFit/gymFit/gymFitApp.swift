@@ -17,6 +17,11 @@ struct gymFitApp: App {
         let query = Exercise.query()
         let exerciseData = try? query.find()
         Exercise.exerciseData = exerciseData ?? []
+        
+        let queryMuscleGroup = MuscleGroup.query()
+        let muscleGroupData = try? queryMuscleGroup.find()
+        MuscleGroup.muscleGroupData = muscleGroupData ?? []
+        
     }
     var body: some Scene {
         WindowGroup {
