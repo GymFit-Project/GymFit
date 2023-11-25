@@ -16,11 +16,11 @@ struct ContentView: View {
                     Text("Muscle Groups")
                 }
 
-//            AllExercisesView()
-//                .tabItem {
-//                    Image(systemName: "figure.run.square.stack")
-//                    Text("All Exercises")
-//                }
+            AllExercisesView()
+                .tabItem {
+                    Image(systemName: "figure.run.square.stack")
+                    Text("All Exercises")
+                }
         }
     }
 }

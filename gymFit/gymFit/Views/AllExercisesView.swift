@@ -48,3 +48,37 @@
 //#Preview {
 //    AllExercisesView()
 //}
+
+
+import SwiftUI
+
+struct AllExercisesView: View {
+    
+    var body: some View {
+        NavigationView{
+            List{
+                ForEach(Exercise.exerciseData) { exercise in
+//                    NavigationLink(destination: WorkoutDetailsView(muscleGroup: group)) {
+
+                        HStack{
+                            ImageView(url:
+                                        (exercise.image?.url)!).frame(width: 100, height: 100)
+                            Text(exercise.name ?? "None")
+                                .font(.title)
+                                .padding(.leading)
+                                .foregroundColor(.yellow)
+
+                        }
+//                    }
+                }
+            }
+            .listStyle(.inset)
+            .navigationTitle("All Exercises")
+        }
+
+    }
+}
+
+#Preview {
+    AllExercisesView()
+}
