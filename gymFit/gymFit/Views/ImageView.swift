@@ -20,7 +20,6 @@ struct ImageView: View {
                 image
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 96, height: 96)
             case .failure:
                 Image(systemName: "photo")
             @unknown default:

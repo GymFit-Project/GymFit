@@ -53,11 +53,19 @@
 import SwiftUI
 
 struct ExerciseDetailsView: View {
-//    @Binding var exercise: Exercise
-    var exercise: Exercise?
-
+    var exerciseId: String?
+    
+    var exercise: Exercise? {
+        for exercise in Exercise.exerciseData {
+            if exercise.objectId == exerciseId{
+                return exercise
+            }
+        }
+        return nil
+    }
+    
+    
     var body: some View {
-        
         if let exercise = exercise {
             VStack{
                 Text(exercise.name ?? "default name")

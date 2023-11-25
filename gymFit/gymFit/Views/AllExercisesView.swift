@@ -60,9 +60,9 @@ struct AllExercisesView: View {
         NavigationView{
             List{
                 ForEach(Exercise.exerciseData) { exercise in
-                    NavigationLink(destination: ExerciseDetailsView(exercise: selectedExercise)){
+                    NavigationLink(destination: ExerciseDetailsView(exerciseId: exercise.objectId)){
                         HStack{
-                            ImageView(url:(exercise.image?.url)!).frame(width: 100, height: 100)
+                            ImageView(url:(exercise.image?.url)!).frame(width: 96, height: 96)
                             VStack(alignment: .leading){
                                 Text(exercise.name ?? "None")
                                     .font(.title)
