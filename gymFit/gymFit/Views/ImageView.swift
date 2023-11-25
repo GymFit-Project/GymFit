@@ -19,7 +19,8 @@ struct ImageView: View {
             case .success(let image):
                 image
                     .resizable()
-                    .aspectRatio(contentMode: .fill)
+                    .scaledToFit()
+                    .frame(width: 96, height: 96)
             case .failure:
                 Image(systemName: "photo")
             @unknown default:

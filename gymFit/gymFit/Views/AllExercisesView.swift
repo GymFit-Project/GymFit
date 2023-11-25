@@ -60,19 +60,23 @@ struct AllExercisesView: View {
         NavigationView{
             List{
                 ForEach(Exercise.exerciseData) { exercise in
-                    NavigationLink(
-                                            destination: ExerciseDetailsView(exercise: selectedExercise),
-                                            tag: exercise,
-                                            selection: $selectedExercise
-                    ){
+                    NavigationLink(destination: ExerciseDetailsView(exercise: selectedExercise)){
                         HStack{
-                            ImageView(url:
-                                        (exercise.image?.url)!).frame(width: 100, height: 100)
-                            Text(exercise.name ?? "None")
-                                .font(.title)
-                                .padding(.leading)
-                                .foregroundColor(.yellow)
-
+                            ImageView(url:(exercise.image?.url)!).frame(width: 100, height: 100)
+                            VStack(alignment: .leading){
+                                Text(exercise.name ?? "None")
+                                    .font(.title)
+                                    .foregroundColor(.yellow)
+                                HStack {
+                                    if(exercise.reps != nil){
+                                       Text("Reps: \(String(exercise.reps ?? -1))")
+                                    }else{
+                                        Text("Duration: \(String(exercise.duration ?? -1))")
+                                    }
+                                    Text("|")
+                                    Text("Sets: \(String(exercise.sets ?? -1))")
+                                }
+                            }
                         }
                     }
                 }
