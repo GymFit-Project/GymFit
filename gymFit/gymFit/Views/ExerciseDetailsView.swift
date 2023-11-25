@@ -48,3 +48,25 @@
 //#Preview {
 //    ExerciseDetailsView(exercise: Exercise.exerciseData[0])
 //}
+
+
+import SwiftUI
+
+struct ExerciseDetailsView: View {
+//    @Binding var exercise: Exercise
+    var exercise: Exercise?
+
+    var body: some View {
+        
+        if let exercise = exercise {
+            VStack{
+                Text(exercise.name ?? "default name")
+                ImageView(url: (exercise.image?.url)!)
+                Text(exercise.description ?? "default description")
+                Text("sets: \(String(exercise.sets ?? 0))")
+                Text("duration: \(String(exercise.duration ?? 0))")}
+        } else{
+            Text("No exercise was clicked")
+        }
+    }
+}

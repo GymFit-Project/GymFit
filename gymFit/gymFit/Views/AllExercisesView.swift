@@ -54,12 +54,17 @@ import SwiftUI
 
 struct AllExercisesView: View {
     
+    @State private var selectedExercise: Exercise?
+    
     var body: some View {
         NavigationView{
             List{
                 ForEach(Exercise.exerciseData) { exercise in
-//                    NavigationLink(destination: WorkoutDetailsView(muscleGroup: group)) {
-
+                    NavigationLink(
+                                            destination: ExerciseDetailsView(exercise: selectedExercise),
+                                            tag: exercise,
+                                            selection: $selectedExercise
+                    ){
                         HStack{
                             ImageView(url:
                                         (exercise.image?.url)!).frame(width: 100, height: 100)
@@ -69,11 +74,12 @@ struct AllExercisesView: View {
                                 .foregroundColor(.yellow)
 
                         }
-//                    }
+                    }
                 }
             }
             .listStyle(.inset)
             .navigationTitle("All Exercises")
+
         }
 
     }
