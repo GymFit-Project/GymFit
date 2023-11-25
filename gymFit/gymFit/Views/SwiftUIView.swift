@@ -13,12 +13,22 @@ struct SwiftUIView: View {
     var body: some View {
         List {
             ForEach(Exercise.exerciseData) { exercise in
+                var muscleGroup: MuscleGroup? {
+                    for muscleGroup in MuscleGroup.muscleGroupData {
+                        if exercise.muscleGroup?.objectId == muscleGroup.objectId{
+                            return muscleGroup
+                        }
+                    }
+                    return nil
+                }
                 VStack{
                     Text(exercise.name ?? "default name")
                     ImageView(url: (exercise.image?.url)!)
                     Text(exercise.description ?? "default description")
                     Text("sets: \(String(exercise.sets ?? 0))")
                     Text("duration: \(String(exercise.duration ?? 0))")
+                    Text("muscle: \(String(muscleGroup?.name ?? "0"))")
+
                 }
             }
         }
