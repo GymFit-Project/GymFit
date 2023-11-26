@@ -15,7 +15,7 @@ struct ContentView: View {
                     Image(systemName: "figure.mixed.cardio")
                     Text("Muscle Groups")
                 }
-
+            
             AllExercisesView()
                 .tabItem {
                     Image(systemName: "figure.run.square.stack")

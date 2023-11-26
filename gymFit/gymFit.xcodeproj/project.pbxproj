@@ -18,7 +18,6 @@
 		E5E510AD2B0FC80200DDB9C7 /* WorkoutDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E510AA2B0FC80200DDB9C7 /* WorkoutDetailsView.swift */; };
 		E5E510AE2B0FC80200DDB9C7 /* ExerciseDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E510AB2B0FC80200DDB9C7 /* ExerciseDetailsView.swift */; };
 		E5E510AF2B0FC80200DDB9C7 /* AllExercisesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E510AC2B0FC80200DDB9C7 /* AllExercisesView.swift */; };
-		E5E510B12B1106EA00DDB9C7 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E510B02B1106EA00DDB9C7 /* SwiftUIView.swift */; };
 		E5E510B42B110DC700DDB9C7 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = E5E510B32B110DC700DDB9C7 /* Nuke */; };
 		E5E510B62B110DC700DDB9C7 /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = E5E510B52B110DC700DDB9C7 /* NukeExtensions */; };
 		E5E510B82B110DC700DDB9C7 /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = E5E510B72B110DC700DDB9C7 /* NukeUI */; };
@@ -38,7 +37,6 @@
 		E5E510AA2B0FC80200DDB9C7 /* WorkoutDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutDetailsView.swift; sourceTree = "<group>"; };
 		E5E510AB2B0FC80200DDB9C7 /* ExerciseDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseDetailsView.swift; sourceTree = "<group>"; };
 		E5E510AC2B0FC80200DDB9C7 /* AllExercisesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllExercisesView.swift; sourceTree = "<group>"; };
-		E5E510B02B1106EA00DDB9C7 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		E5E510BB2B110F8500DDB9C7 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,7 +64,6 @@
 				E5E510AA2B0FC80200DDB9C7 /* WorkoutDetailsView.swift */,
 				E540A2E82AF7ECE100670D72 /* ContentView.swift */,
 				E540A2F62AF83EC800670D72 /* MuscleGroupsView.swift */,
-				E5E510B02B1106EA00DDB9C7 /* SwiftUIView.swift */,
 				E5E510BB2B110F8500DDB9C7 /* ImageView.swift */,
 			);
 			path = Views;
@@ -201,7 +198,6 @@
 				E5E510BC2B110F8500DDB9C7 /* ImageView.swift in Sources */,
 				E5E510AF2B0FC80200DDB9C7 /* AllExercisesView.swift in Sources */,
 				E540A2F72AF83EC800670D72 /* MuscleGroupsView.swift in Sources */,
-				E5E510B12B1106EA00DDB9C7 /* SwiftUIView.swift in Sources */,
 				E540A2E92AF7ECE100670D72 /* ContentView.swift in Sources */,
 				E540A2E72AF7ECE100670D72 /* gymFitApp.swift in Sources */,
 				E5E510AD2B0FC80200DDB9C7 /* WorkoutDetailsView.swift in Sources */,
