@@ -53,16 +53,13 @@
 import SwiftUI
 
 struct AllExercisesView: View {
-    
-    @State private var selectedExercise: Exercise?
-    
     var body: some View {
         NavigationView{
             List{
                 ForEach(Exercise.exerciseData) { exercise in
                     NavigationLink(destination: ExerciseDetailsView(exerciseId: exercise.objectId)){
                         HStack{
-                            ImageView(url:(exercise.image?.url)!).frame(width: 96, height: 96)
+                            ImageView(url:(exercise.image?.url)!).frame(width: 96, height: 96).scaledToFit()
                             VStack(alignment: .leading){
                                 Text(exercise.name ?? "None")
                                     .font(.title)
@@ -83,7 +80,6 @@ struct AllExercisesView: View {
             }
             .listStyle(.inset)
             .navigationTitle("All Exercises")
-
         }
 
     }

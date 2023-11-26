@@ -52,24 +52,22 @@ struct MuscleGroupsView: View {
         NavigationView{
             List{
                 ForEach(MuscleGroup.muscleGroupData) { muscleGroup in
-//                    NavigationLink(destination: WorkoutDetailsView(muscleGroup: group)) {
-
+                    NavigationLink(destination: WorkoutDetailsView(muscleGroupId: muscleGroup.objectId)) {
                         HStack{
                             ImageView(url:
-                                        (muscleGroup.image?.url)!).frame(width: 100, height: 100)
+                                        (muscleGroup.image?.url)!).frame(width: 96, height: 96)
                             Text(muscleGroup.name ?? "None")
                                 .font(.title)
                                 .padding(.leading)
                                 .foregroundColor(.yellow)
-
+                            
                         }
-//                    }
+                    }
                 }
+                .navigationTitle("Muscle Groups")
             }
-            .listStyle(.inset)
-            .navigationTitle("Muscle Groups")
+            
         }
-
     }
 }
 
