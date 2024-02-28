@@ -6,9 +6,23 @@
 //
 
 import SwiftUI
+import ParseSwift
 
 @main
 struct gymFitApp: App {
+    init() {
+        ParseSwift.initialize(applicationId: "8m9cY1kjVuDvV1vlVW9wx0J6ULjyMNvFVacBHn0L",
+                              clientKey: "1z3WRkB35nDS8BB7iGxC2cnPXi0wjjd4E6ODVrA1",
+                              serverURL: URL(string: "https://parseapi.back4app.com")!)
+        let query = Exercise.query()
+        let exerciseData = try? query.find()
+        Exercise.exerciseData = exerciseData ?? []
+        
+        let queryMuscleGroup = MuscleGroup.query()
+        let muscleGroupData = try? queryMuscleGroup.find()
+        MuscleGroup.muscleGroupData = muscleGroupData ?? []
+        
+    }
     var body: some Scene {
         WindowGroup {
             ContentView()

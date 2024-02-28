@@ -8,16 +8,16 @@
 import SwiftUI
 
 struct MuscleGroupsView: View {
-    var muscleGroups = MuscleGroup.allCases
+    
     var body: some View {
         NavigationView{
             List{
-                ForEach(muscleGroups, id: \.self) { group in
-                    NavigationLink(destination: WorkoutDetailsView(muscleGroup: group)) {
-                        
+                ForEach(MuscleGroup.muscleGroupData) { muscleGroup in
+                    NavigationLink(destination: WorkoutDetailsView(muscleGroupId: muscleGroup.objectId)) {
                         HStack{
-                            Image(group.image).resizable().frame(width: 96,height: 96)
-                            Text(group.name)
+                            ImageView(url:
+                                        (muscleGroup.image?.url)!).frame(width: 96, height: 96)
+                            Text(muscleGroup.name ?? "None")
                                 .font(.title)
                                 .padding(.leading)
                                 .foregroundColor(.yellow)
@@ -25,11 +25,10 @@ struct MuscleGroupsView: View {
                         }
                     }
                 }
+                .navigationTitle("Muscle Groups")
             }
-            .listStyle(.inset)
-            .navigationTitle("Muscle Groups")
+            
         }
-        
     }
 }
 

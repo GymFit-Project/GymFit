@@ -6,34 +6,21 @@
 //
 
 import Foundation
+import ParseSwift
+import SwiftUI
 
-enum MuscleGroup: CaseIterable {
-    case chest
-    case legs
-    case biceps
-    case abs
-    case shoulders
-    case back
+struct MuscleGroup: ParseObject {
+    var originalData: Data?
+    var objectId: String?
+    var createdAt: Date?
+    var updatedAt: Date?
+    var ACL: ParseSwift.ParseACL?
     
-    var name: String {
-        switch self {
-        case .chest: return "Chest"
-        case .legs: return "Legs"
-        case .biceps: return "Biceps"
-        case .abs: return "Abs"
-        case .shoulders: return "Shoulders"
-        case .back: return "Back"
-        }
-    }
-    
-    var image: String {
-        switch self {
-        case .chest: return "MuscleGroupChest"
-        case .legs: return "MuscleGroupLegs"
-        case .biceps: return "MuscleGroupBiceps"
-        case .abs: return "MuscleGroupAbs"
-        case .shoulders: return "MuscleGroupShoulders"
-        case .back: return "MuscleGroupBack"
-        }
-    }
+    var name:String?
+    var image:ParseFile?
 }
+
+extension MuscleGroup{
+    static var muscleGroupData: [MuscleGroup] = []
+}
+

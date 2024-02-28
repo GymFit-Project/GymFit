@@ -9,28 +9,35 @@
 /* Begin PBXBuildFile section */
 		012335E62AF886B000701621 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012335E52AF886B000701621 /* Exercise.swift */; };
 		012335E82AF88AAF00701621 /* MuscleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012335E72AF88AAF00701621 /* MuscleGroup.swift */; };
-		012335EA2AF8989B00701621 /* WorkoutDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012335E92AF8989B00701621 /* WorkoutDetailsView.swift */; };
-		012335EC2AF8A5D700701621 /* AllExercisesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012335EB2AF8A5D700701621 /* AllExercisesView.swift */; };
-		016E39AA2AFEA3600004DBBB /* ExerciseDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016E39A92AFEA3600004DBBB /* ExerciseDetailsView.swift */; };
 		E540A2E72AF7ECE100670D72 /* gymFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E540A2E62AF7ECE100670D72 /* gymFitApp.swift */; };
 		E540A2E92AF7ECE100670D72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E540A2E82AF7ECE100670D72 /* ContentView.swift */; };
 		E540A2EB2AF7ECE200670D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E540A2EA2AF7ECE200670D72 /* Assets.xcassets */; };
 		E540A2EE2AF7ECE200670D72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E540A2ED2AF7ECE200670D72 /* Preview Assets.xcassets */; };
 		E540A2F72AF83EC800670D72 /* MuscleGroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E540A2F62AF83EC800670D72 /* MuscleGroupsView.swift */; };
+		E5E510A92B0BFE8200DDB9C7 /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E5E510A82B0BFE8200DDB9C7 /* ParseSwift */; };
+		E5E510AD2B0FC80200DDB9C7 /* WorkoutDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E510AA2B0FC80200DDB9C7 /* WorkoutDetailsView.swift */; };
+		E5E510AE2B0FC80200DDB9C7 /* ExerciseDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E510AB2B0FC80200DDB9C7 /* ExerciseDetailsView.swift */; };
+		E5E510AF2B0FC80200DDB9C7 /* AllExercisesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E510AC2B0FC80200DDB9C7 /* AllExercisesView.swift */; };
+		E5E510B42B110DC700DDB9C7 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = E5E510B32B110DC700DDB9C7 /* Nuke */; };
+		E5E510B62B110DC700DDB9C7 /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = E5E510B52B110DC700DDB9C7 /* NukeExtensions */; };
+		E5E510B82B110DC700DDB9C7 /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = E5E510B72B110DC700DDB9C7 /* NukeUI */; };
+		E5E510BA2B110DC700DDB9C7 /* NukeVideo in Frameworks */ = {isa = PBXBuildFile; productRef = E5E510B92B110DC700DDB9C7 /* NukeVideo */; };
+		E5E510BC2B110F8500DDB9C7 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E510BB2B110F8500DDB9C7 /* ImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		012335E52AF886B000701621 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		012335E72AF88AAF00701621 /* MuscleGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleGroup.swift; sourceTree = "<group>"; };
-		012335E92AF8989B00701621 /* WorkoutDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailsView.swift; sourceTree = "<group>"; };
-		012335EB2AF8A5D700701621 /* AllExercisesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllExercisesView.swift; sourceTree = "<group>"; };
-		016E39A92AFEA3600004DBBB /* ExerciseDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailsView.swift; sourceTree = "<group>"; };
 		E540A2E32AF7ECE100670D72 /* gymFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gymFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E540A2E62AF7ECE100670D72 /* gymFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gymFitApp.swift; sourceTree = "<group>"; };
 		E540A2E82AF7ECE100670D72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E540A2EA2AF7ECE200670D72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E540A2ED2AF7ECE200670D72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E540A2F62AF83EC800670D72 /* MuscleGroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleGroupsView.swift; sourceTree = "<group>"; };
+		E5E510AA2B0FC80200DDB9C7 /* WorkoutDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutDetailsView.swift; sourceTree = "<group>"; };
+		E5E510AB2B0FC80200DDB9C7 /* ExerciseDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseDetailsView.swift; sourceTree = "<group>"; };
+		E5E510AC2B0FC80200DDB9C7 /* AllExercisesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllExercisesView.swift; sourceTree = "<group>"; };
+		E5E510BB2B110F8500DDB9C7 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +45,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5E510A92B0BFE8200DDB9C7 /* ParseSwift in Frameworks */,
+				E5E510B42B110DC700DDB9C7 /* Nuke in Frameworks */,
+				E5E510BA2B110DC700DDB9C7 /* NukeVideo in Frameworks */,
+				E5E510B62B110DC700DDB9C7 /* NukeExtensions in Frameworks */,
+				E5E510B82B110DC700DDB9C7 /* NukeUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,11 +59,12 @@
 		012335E32AF884B100701621 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E5E510AC2B0FC80200DDB9C7 /* AllExercisesView.swift */,
+				E5E510AB2B0FC80200DDB9C7 /* ExerciseDetailsView.swift */,
+				E5E510AA2B0FC80200DDB9C7 /* WorkoutDetailsView.swift */,
 				E540A2E82AF7ECE100670D72 /* ContentView.swift */,
 				E540A2F62AF83EC800670D72 /* MuscleGroupsView.swift */,
-				012335E92AF8989B00701621 /* WorkoutDetailsView.swift */,
-				012335EB2AF8A5D700701621 /* AllExercisesView.swift */,
-				016E39A92AFEA3600004DBBB /* ExerciseDetailsView.swift */,
+				E5E510BB2B110F8500DDB9C7 /* ImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -117,6 +130,13 @@
 			dependencies = (
 			);
 			name = gymFit;
+			packageProductDependencies = (
+				E5E510A82B0BFE8200DDB9C7 /* ParseSwift */,
+				E5E510B32B110DC700DDB9C7 /* Nuke */,
+				E5E510B52B110DC700DDB9C7 /* NukeExtensions */,
+				E5E510B72B110DC700DDB9C7 /* NukeUI */,
+				E5E510B92B110DC700DDB9C7 /* NukeVideo */,
+			);
 			productName = gymFit;
 			productReference = E540A2E32AF7ECE100670D72 /* gymFit.app */;
 			productType = "com.apple.product-type.application";
@@ -145,6 +165,10 @@
 				Base,
 			);
 			mainGroup = E540A2DA2AF7ECE100670D72;
+			packageReferences = (
+				E5E510A72B0BFE8200DDB9C7 /* XCRemoteSwiftPackageReference "Parse-Swift" */,
+				E5E510B22B110DC700DDB9C7 /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
 			productRefGroup = E540A2E42AF7ECE100670D72 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -171,14 +195,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5E510BC2B110F8500DDB9C7 /* ImageView.swift in Sources */,
+				E5E510AF2B0FC80200DDB9C7 /* AllExercisesView.swift in Sources */,
 				E540A2F72AF83EC800670D72 /* MuscleGroupsView.swift in Sources */,
 				E540A2E92AF7ECE100670D72 /* ContentView.swift in Sources */,
 				E540A2E72AF7ECE100670D72 /* gymFitApp.swift in Sources */,
-				012335EA2AF8989B00701621 /* WorkoutDetailsView.swift in Sources */,
+				E5E510AD2B0FC80200DDB9C7 /* WorkoutDetailsView.swift in Sources */,
 				012335E82AF88AAF00701621 /* MuscleGroup.swift in Sources */,
-				016E39AA2AFEA3600004DBBB /* ExerciseDetailsView.swift in Sources */,
-				012335EC2AF8A5D700701621 /* AllExercisesView.swift in Sources */,
 				012335E62AF886B000701621 /* Exercise.swift in Sources */,
+				E5E510AE2B0FC80200DDB9C7 /* ExerciseDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +402,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E5E510A72B0BFE8200DDB9C7 /* XCRemoteSwiftPackageReference "Parse-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/parse-community/Parse-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.14.2;
+			};
+		};
+		E5E510B22B110DC700DDB9C7 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E5E510A82B0BFE8200DDB9C7 /* ParseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5E510A72B0BFE8200DDB9C7 /* XCRemoteSwiftPackageReference "Parse-Swift" */;
+			productName = ParseSwift;
+		};
+		E5E510B32B110DC700DDB9C7 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5E510B22B110DC700DDB9C7 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		E5E510B52B110DC700DDB9C7 /* NukeExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5E510B22B110DC700DDB9C7 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeExtensions;
+		};
+		E5E510B72B110DC700DDB9C7 /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5E510B22B110DC700DDB9C7 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeUI;
+		};
+		E5E510B92B110DC700DDB9C7 /* NukeVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5E510B22B110DC700DDB9C7 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeVideo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E540A2DB2AF7ECE100670D72 /* Project object */;
 }

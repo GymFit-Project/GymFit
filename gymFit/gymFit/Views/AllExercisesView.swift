@@ -7,34 +7,28 @@
 
 import SwiftUI
 
-
 struct AllExercisesView: View {
     var body: some View {
-        NavigationView {
-            List {
+        NavigationView{
+            List{
                 ForEach(Exercise.exerciseData) { exercise in
-                    NavigationLink(destination: ExerciseDetailsView(exercise: exercise)) {
-                        HStack {
-                            Image(exercise.image)
-                                .resizable()
-                                .frame(width: 96, height: 96)
-                                .scaledToFit()
-                            VStack(alignment: .leading) {
-                                Text(exercise.name)
-                                    .foregroundStyle(.yellow)
+                    NavigationLink(destination: ExerciseDetailsView(exerciseId: exercise.objectId)){
+                        HStack{
+                            ImageView(url:(exercise.image?.url)!).frame(width: 96, height: 96).scaledToFit()
+                            VStack(alignment: .leading){
+                                Text(exercise.name ?? "None")
                                     .font(.title)
-                                    .bold()
+                                    .foregroundColor(.yellow)
                                 HStack {
-                                    if case .reps(let numReps) = exercise.type {
-                                        Text("Reps: \(numReps)")
-                                    } else if case .duration(let numDuration) = exercise.type {
-                                        Text("Duration: \(formatTimeInterval(numDuration))")
+                                    if(exercise.reps != nil){
+                                        Text("Reps: \(String(exercise.reps ?? -1))")
+                                    }else{
+                                        Text("Duration: \(String(exercise.duration ?? -1))")
                                     }
                                     Text("|")
-                                    Text("Sets: \(exercise.sets)")
+                                    Text("Sets: \(String(exercise.sets ?? -1))")
                                 }
                             }
-                            .padding(.leading)
                         }
                     }
                 }
@@ -42,6 +36,7 @@ struct AllExercisesView: View {
             .listStyle(.inset)
             .navigationTitle("All Exercises")
         }
+        
     }
 }
 
